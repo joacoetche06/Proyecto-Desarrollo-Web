@@ -1,0 +1,17 @@
+@import "_commons";
+@import "_navbar";
+@import "_footer";
+@import "_carousel";
+@import "_contacto";
+@import "_productos";
+@import "_info";
+
+body{
+    background-color: $principal;
+}
+
+main h1{
+    color: antiquewhite;
+    align-self: flex-start;
+}
+

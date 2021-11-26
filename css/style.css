@@ -1,0 +1,167 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+/* colores */
+/* body y footer */
+/* display */
+/* tamaños */
+/* for */
+.info-1 {
+  font-size: 3em; }
+
+.info-2 {
+  font-size: 1.5em; }
+
+.info-3 {
+  font-size: 1em; }
+
+/* each */
+.info0-img {
+  background-image: url(../img/info0.png);
+  width: 200px;
+  height: 400px;
+  background-size: 100%;
+  list-style: none; }
+
+.info1-img {
+  background-image: url(../img/info1.png);
+  width: 200px;
+  height: 400px;
+  background-size: 100%;
+  list-style: none; }
+
+.info2-img {
+  background-image: url(../img/info2.png);
+  width: 200px;
+  height: 400px;
+  background-size: 100%;
+  list-style: none; }
+
+.info3-img {
+  background-image: url(../img/info3.png);
+  width: 200px;
+  height: 400px;
+  background-size: 100%;
+  list-style: none; }
+
+.info4-img {
+  background-image: url(../img/info4.png);
+  width: 200px;
+  height: 400px;
+  background-size: 100%;
+  list-style: none; }
+
+.info5-img {
+  background-image: url(../img/info5.png);
+  width: 200px;
+  height: 400px;
+  background-size: 100%;
+  list-style: none; }
+
+.header__nav-fondo {
+  background-color: rgba(220, 20, 60, 0.712); }
+
+.bg-dropdown {
+  background-color: rgba(212, 30, 66, 0.658); }
+
+#logo {
+  width: 100px; }
+  #logo:hover {
+    transform: rotateY(360deg);
+    transition: 2s;
+    cursor: pointer; }
+
+.logo-lupa {
+  width: 30px; }
+
+.footer__settings {
+  background-color: coral;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.footer__img {
+  position: fixed;
+  bottom: 80px;
+  right: 50px;
+  width: auto; }
+
+.footer__ig {
+  text-align: center;
+  width: 18%; }
+
+.carousel-item img {
+  width: 10%; }
+
+.carouselIndex {
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px; }
+
+h1 {
+  margin-left: 38px; }
+
+.carouselIndex h2 {
+  text-decoration: none; }
+
+.carousel-caption {
+  background-color: rgba(165, 143, 143, 0.774); }
+
+.formulario {
+  background-color: #999999; }
+
+.enviar {
+  background-color: lime;
+  color: white;
+  margin-top: 5px; }
+
+.cancelar {
+  background-color: red;
+  color: white;
+  margin-top: 5px; }
+
+.texto-contacto {
+  margin: 10px; }
+
+.contenedor-productos {
+  max-width: 1200px;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: whitesmoke; }
+
+.producto {
+  max-width: 200px;
+  padding: 8px;
+  margin: 20px 1px;
+  box-shadow: 0px 2px 12px 5px deeppink; }
+
+.img-productos {
+  width: 100%;
+  margin-bottom: 10px; }
+
+.stock {
+  margin: 10px 0px 0 38px; }
+
+.info {
+  color: #03569e;
+  font-family: 'Dancing Script', cursive;
+  margin: 0 15px; }
+
+.img-info {
+  display: flex !important;
+  margin: 50px 0;
+  justify-content: space-evenly; }
+
+body {
+  background-color: coral; }
+
+main h1 {
+  color: antiquewhite;
+  align-self: flex-start; }

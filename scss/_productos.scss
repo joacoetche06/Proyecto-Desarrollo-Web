@@ -1,0 +1,25 @@
+.contenedor-productos {
+    max-width: ($px)+1100;
+    margin: ($px)-40 auto;
+    display: $d-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+}
+
+.producto {
+    max-width: ($px)+100;
+    padding: ($px)-92;
+    margin: $marginprod;
+    box-shadow: $boxshadow;
+}
+
+.img-productos{
+    width: 100%;
+    margin-bottom: ($px)-90;
+}
+
+.stock{
+    margin: 10px 0px 0 38px;
+}

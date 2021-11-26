@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* colores */
+$nav: rgba(220, 20, 60, 0.712);
+$principal: coral; /* body y footer */
+$dropdown: rgba(212, 30, 66, 0.658);
+$carousel: blueviolet;
+$car-cap: rgba(165, 143, 143, 0.774);
+$form: rgb(153, 153, 153);
+$info: rgb(3, 86, 158);
+
+/* display */
+$d-flex: flex;
+
+/* tamaños */
+$px: 100px;
+$marginprod: 20px 1px;
+$boxshadow: 0px 2px 12px 5px deeppink;
+
+
+/* for */
+@for $i from 1 through 3{
+	.info-#{$i}{
+		font-size: 3em / $i;
+	}
+}
+
+/* each */
+@each $img in info0, info1, info2, info3, info4, info5{
+	.#{$img}-img{
+		background-image:url(../img/#{$img}.png);
+        width: 200px;
+		height: 400px;
+		background-size:100%;
+		list-style: none;
+	}
+}

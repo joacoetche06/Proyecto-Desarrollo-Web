@@ -1,0 +1,23 @@
+.header__nav-fondo{
+    background-color: $nav;
+}
+
+.bg-dropdown{
+    background-color: $dropdown;
+}
+
+#logo{
+    width: $px;
+    &:hover{
+        transform: rotateY(360deg);
+        transition: 2s;
+        cursor: pointer;
+    }
+}
+
+.logo-lupa{
+    width: ($px)-70;
+}
+
+
+

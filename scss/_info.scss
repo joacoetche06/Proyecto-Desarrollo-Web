@@ -1,0 +1,11 @@
+.info{
+    color: $info;
+    font-family: 'Dancing Script', cursive;
+    margin: 0 15px
+}
+
+.img-info{
+    display: $d-flex !important;
+    margin: 50px 0;
+    justify-content: space-evenly;
+}

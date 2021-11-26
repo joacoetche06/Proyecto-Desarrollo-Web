@@ -1,0 +1,18 @@
+.footer__settings{
+    background-color: $principal;
+    justify-content: space-evenly;
+    margin-top: ($px)-50;
+    margin-bottom: ($px)-50;
+}
+
+.footer__img{
+    position: fixed;
+    bottom: ($px)-20;
+    right: ($px)-50;
+    width: auto;
+}
+
+.footer__ig{
+    text-align: center;
+    width: 18%;
+}

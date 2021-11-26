@@ -1,0 +1,22 @@
+.carousel-item img {
+    width:10%
+}
+
+.carouselIndex{
+    background-color: $carousel;
+    display: $d-flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: ($px)-70;
+}
+    h1{
+        margin-left: 38px;
+    }
+
+.carouselIndex h2{
+    text-decoration: none;
+}
+
+.carousel-caption{
+    background-color: $car-cap;
+}
