@@ -23,42 +23,48 @@
   width: 200px;
   height: 400px;
   background-size: 100%;
-  list-style: none; }
+  list-style: none;
+  margin: 20px 0; }
 
 .info1-img {
   background-image: url(../img/info1.png);
   width: 200px;
   height: 400px;
   background-size: 100%;
-  list-style: none; }
+  list-style: none;
+  margin: 20px 0; }
 
 .info2-img {
   background-image: url(../img/info2.png);
   width: 200px;
   height: 400px;
   background-size: 100%;
-  list-style: none; }
+  list-style: none;
+  margin: 20px 0; }
 
 .info3-img {
   background-image: url(../img/info3.png);
   width: 200px;
   height: 400px;
   background-size: 100%;
-  list-style: none; }
+  list-style: none;
+  margin: 20px 0; }
 
 .info4-img {
   background-image: url(../img/info4.png);
   width: 200px;
   height: 400px;
   background-size: 100%;
-  list-style: none; }
+  list-style: none;
+  margin: 20px 0; }
 
 .info5-img {
   background-image: url(../img/info5.png);
   width: 200px;
   height: 400px;
   background-size: 100%;
-  list-style: none; }
+  list-style: none;
+  margin: 20px 0; }
 
 .header__nav-fondo {
   background-color: rgba(220, 20, 60, 0.712); }
@@ -90,7 +96,8 @@
 
 .footer__ig {
   text-align: center;
-  width: 18%; }
+  width: 18%;
+  margin-top: 7px; }
 
 .carousel-item img {
   width: 10%; }
@@ -156,6 +163,7 @@ h1 {
 
 .img-info {
   display: flex !important;
+  flex-wrap: wrap;
   margin: 50px 0;
   justify-content: space-evenly; }
 

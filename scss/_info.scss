@@ -6,6 +6,7 @@
 
 .img-info{
     display: $d-flex !important;
+    flex-wrap: wrap;
     margin: 50px 0;
     justify-content: space-evenly;
 }
