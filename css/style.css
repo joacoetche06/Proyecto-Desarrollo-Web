@@ -134,7 +134,8 @@ h1 {
   background-color: rgba(165, 143, 143, 0.774); }
 
 .formulario {
-  background-color: #999999; }
+  background-color: #ffffff77;
+  padding: 10px; }
 
 .enviar {
   background-color: lime;
@@ -209,10 +210,3 @@ body {
 main h1 {
   color: antiquewhite;
   align-self: flex-start; }
-
-/* @media only screen and (min-width: 768px)
-{
-    
-
-
-} */
