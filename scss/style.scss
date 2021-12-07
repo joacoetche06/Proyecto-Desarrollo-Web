@@ -5,6 +5,7 @@
 @import "_contacto";
 @import "_productos";
 @import "_info";
+@import "_error404";
 
 body{
     background-color: $principal;
@@ -15,3 +16,9 @@ main h1{
     align-self: flex-start;
 }
 
+/* @media only screen and (min-width: 768px)
+{
+    
+
+
+} */

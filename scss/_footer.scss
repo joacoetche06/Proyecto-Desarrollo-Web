@@ -1,6 +1,6 @@
 .footer__settings{
     background-color: $principal;
-    justify-content: space-evenly;
+    flex-direction: column;
     margin-top: ($px)-50;
     margin-bottom: ($px)-50;
 }
@@ -14,7 +14,25 @@
 
 .footer__ig{
     text-align: center;
-    width: 18%;
+    width: 80px;
     margin-top: 7px;
 }
 
+.c-1{
+    margin: 0 10px 10px 10px;
+    background-color: #ffd271a8;
+}
+
+.c-2{
+    margin: 10px 10px;
+    background-color: #ffd271a8;
+}
+
+.m-pago{
+    list-style: none;
+}
+
+.c-3{
+    margin: 10px 10px 0 10px;
+    background-color: #ffd271a8;
+}
