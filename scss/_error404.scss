@@ -22,5 +22,14 @@
 }
 
 #e-404 p img{
-    width: 6%;
+    width: 80px;
+}
+
+@media only screen and (max-width: 576px) {
+    #e-404 h1{
+        font-size: 50px;
+    }
+    #e-404 p{
+        font-size: 20px;
+    }
 }

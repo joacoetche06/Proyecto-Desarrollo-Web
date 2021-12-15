@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300&display=swap");
 * {
   margin: 0;
   padding: 0; }
@@ -90,8 +91,11 @@
 
 .footer-pags {
   background-color: #ffd271a8;
-  padding: 50px;
-  margin-top: 50px; }
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-bottom: 35px;
+  margin-top: 50px;
+  margin-bottom: 0; }
 
 .footer__img {
   position: fixed;
@@ -143,20 +147,35 @@ h1 {
 
 .formulario {
   background-color: #ffffff77;
-  padding: 10px; }
+  padding: 10px;
+  padding-left: 30px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 5px; }
 
 .enviar {
   background-color: lime;
   color: white;
-  margin-top: 5px; }
+  margin-top: 5px;
+  margin-left: 30px; }
 
 .cancelar {
   background-color: red;
   color: white;
-  margin-top: 5px; }
+  margin-top: 5px;
+  margin-left: 5px; }
 
 .texto-contacto {
-  margin: 10px; }
+  font-family: 'Roboto', sans-serif; }
+
+.texto-contacto h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  margin-left: 30px;
+  margin-top: 15px; }
+
+#cons {
+  margin-top: 10px; }
 
 .contenedor-productos {
   max-width: 1200px;
@@ -189,7 +208,7 @@ h1 {
 .info {
   color: #03569e;
   font-family: 'Dancing Script', cursive;
-  margin: 0 15px; }
+  margin: 0 45px; }
 
 .img-info {
   display: flex !important;
@@ -224,7 +243,13 @@ h1 {
   font-size: 30px; }
 
 #e-404 p img {
-  width: 6%; }
+  width: 80px; }
+
+@media only screen and (max-width: 576px) {
+  #e-404 h1 {
+    font-size: 50px; }
+  #e-404 p {
+    font-size: 20px; } }
 
 body {
   background-color: coral; }
